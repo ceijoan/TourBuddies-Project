@@ -11,18 +11,20 @@ body {
 @font-face {
     font-family: "Aileron";
     src: url("/css/Aileron-Regular.otf");
-
 }
+.aileron {
+    font-family: "Aileron";
+}
+
+h1 {font-family: "Aileron";
+}
+
 .contenido {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 30px;
     gap: 40px;
-}
-
-.aileron {
-    font-family: "Aileron";
 }
 
 .reviews {
@@ -61,6 +63,7 @@ body {
     color: black;
     
 }
+
 h3 {
     color: #004AAD;
     margin-bottom: 10px;
@@ -68,4 +71,21 @@ h3 {
 
 p {
     font-family: "Roboto";
+}
+
+.TyC {
+    padding: 3px;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    width: 60vw;
+    font-family: "Roboto";
+}
+
+.TyC h2:nth-child(even) {
+    color: #7C2BB4;
+}
+
+.TyC h2:nth-child(odd) {
+    color: #004AAD;
 }
