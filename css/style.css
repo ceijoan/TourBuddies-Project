@@ -1,8 +1,63 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: aqua;
+
+body {
+    background-color: white;
 }
+
+@font-face {
+    font-family: "Aileron";
+    src: url("/css/Aileron-Regular.otf");
+
+}
+.contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border: 5px solid black;
+    gap: 40px;
+}
+
+.aileron {
+    font-family: "Aileron";
+}
+
+.reviews {
+    --background-color: red;
+    padding: 3px;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    width: 60vw;
+    
+    
+}
+.review {
+    border: 1px solid black;
+    padding: 3px;
+    min-height: 10vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.foto-review {
+    border-radius: 50%;
+    border-color: #7C2BB4;
+    border-style: solid;
+    border-width: 5px;
+    width: 150px;
+    height: 150px;
+    margin: 30px;
+}
+
+.texto-review {
+    color: black;
+}
+h3 {
+    color: blue;
+}
+
