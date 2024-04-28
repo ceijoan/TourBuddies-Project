@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "Aileron";
+    src: url("/css/Aileron-Regular.otf");
+}
+
+.footer {
+    height: 100px;
+    background-color: #E6E6E6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Aileron";
+    font-weight: bold;
+    
+}
+
+.azul {
+    color: #004AAD;
+}
+
+.morado {
+    color: #7C2BB4;
+}
+
+.logos-redes img {
+    width:40px;
+    height:40px;
+}
+
+.logos-redes {
+    gap: 15px;
+    display: flex;
+}
+.footer a {
+    text-decoration: none;
+    color: black;
+}
