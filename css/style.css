@@ -16,7 +16,11 @@ body {
     font-family: "Aileron";
 }
 
-h1 {font-family: "Aileron";
+h1 {
+    font-family: "Aileron";
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
 }
 
 .contenido {
@@ -88,4 +92,65 @@ p {
 
 .TyC h2:nth-child(odd) {
     color: #004AAD;
+}
+
+/*Aqui empiezan los estilos del home*/
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px 20px;
+}
+.contenedor h1{
+    color:#7C2BB4;
+    padding: 20px 0;
+    width: 100%;
+}
+.left, .right{
+    flex: 1;
+}
+
+.left img, .right img{
+    width: 100%;
+    border-radius:30px;
+
+}
+.btn{
+    font-size: 25px;
+    color: #fff;
+    background-color:#7C2BB4;
+    flex: 1 0;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 0;
+    font-family: 'Roboto';
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: #004AAD;
+}
+
+/*Aqui empiezan los estilos del login y registro*/
+form{
+    width: 500px;
+    margin: 0 auto;
+    border: 2px solid #000;
+    border-radius: 1em;
+    padding: 20px;   
+}
+form>ul{
+    list-style: none;
+}
+
+.general-info label{
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    text-align: left;
+}
+.box-form{
+    width: 100%;
+    padding: 5px 0;
+    box-shadow:5px 5px 5px rgba(0, 0, 255, .2);
+    border:none;
 }
