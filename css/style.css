@@ -122,7 +122,9 @@ p {
 .left img, .right img{
     width: 100%;
     border-radius:30px;
-
+    flex: 0;
+    object-fit: cover;
+    height: 70vh;
 }
 .btn{
     font-size: 25px;
