@@ -102,11 +102,7 @@ p {
     gap: 20px;
     padding: 10px 20px;
 }
-.contenedor2{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding: 10px 20px;
+.center{
     justify-content: center;
 }
 
@@ -149,7 +145,7 @@ form{
     border-radius: 1em;
     padding: 20px;   
 }
-form>ul{
+form>ul{/*selecciona el primer nivel de hijos*/
     list-style: none;
 }
 
@@ -211,6 +207,10 @@ form>ul{
 
 .datos-usuario ul li a:hover {
     background-color: #004AAD;
+}
+.galleria{
+    width: 100%;
+    text-align: center;
 }
 .galleria h3{
     text-align: center;
